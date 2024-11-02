@@ -21,3 +21,6 @@ The **Sharp GP2Y1014AU0F** sensor measures air quality, specifically the presenc
 1. **Setup**: Connect the GP2Y1014AU0F sensor and ventilator to the ATmega328P as per the wiring diagram.
 2. **Upload the Code**: Upload the Arduino sketch to the ATmega328P with internal clock, with the help of [Minicore](https://github.com/MCUdude/MiniCore/)
 3. **Calibration**: Adjust the fume threshold in the code, if necessary, for your workspace.
+
+## EXTRA HELP
+To flash the bootloader to your atmega328p using the internal 8MHz oscilator you can use your current arduino and this sketch: [Modified ArduinoISP for 8MHz](https://github.com/adafruit/ArduinoISP/blob/master/ArduinoISP.ino)
