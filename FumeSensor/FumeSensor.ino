@@ -10,12 +10,12 @@ double power_time = 0;
 
 void setup()
 {
- pinMode(led,OUTPUT);
- pinMode(fume_disipation,OUTPUT);
+  pinMode(led,OUTPUT);
+  pinMode(fume_disipation,OUTPUT);
   Serial.begin(115200);
- delay(10);
- digitalWrite (fume_disipation, HIGH);
- delay(5000);
+  delay(10);
+  digitalWrite (fume_disipation, HIGH);
+  delay(5000);
   digitalWrite (fume_disipation, LOW);
 
 }

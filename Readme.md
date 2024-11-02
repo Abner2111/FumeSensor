@@ -6,7 +6,7 @@ This project utilizes the **Sharp GP2Y1014AU0F** dust sensor to detect soldering
 ## Components
 - **Microcontroller**: ATmega328P
 - **Dust Sensor**: Sharp GP2Y1014AU0F
-- **Ventilator**: Activated when fumes are detected. I used a small ventilator, so i just send a logic 0 to activate it, you might need a relay and separate power supply.
+- **Ventilator**: Activated when fumes are detected. I used a small ventilator, so i just send a logic 1 to activate it, you might need a relay and separate power supply.
 - **Power Supply**: 5V (adjust as necessary for your setup)
 
 ## How It Works
